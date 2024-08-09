@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            position: relative;
+        }
+        .about-section, .projects-section, .skills-section, .contact-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .about-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .project-card, .skill-card {
+            margin-bottom: 20px;
+        }
+        .skill-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        .contact-section {
+            background-color: #333;
+            color: white;
+        }
+        .contact-section .contact-info {
+            margin-bottom: 30px;
+        }
+        .contact-section .contact-info i {
+            margin-right: 10px;
+        }
+        .social-icons .btn {
+            width: 50px;
+            height: 50px;
+            background-color: #ff4081;
+            border-radius: 50%;
+            margin: 0 10px;
+            color: white;
+        }
+        .social-icons .btn:hover {
+            background-color: #e0356d;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ff4081 !important;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="70">
+
+    
+    <!-- Home Section -->
+    <section id="home" class="about-section">
+        <div class="container">
+            <h1 class="display-4">Home</h1>
+            <p>Welcome to my portfolio!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1 class="display-4">About</h1>
+            <img src="images/about/new.jpg" alt="About Image">
+            <p>PROFESSIONAL SUMMARY (EMMANUEL MWAKA)
+                 Data Analyst with 2+ years of progressive experience in analyzing and interpreting high volumes of complex data across diverse project phases, contributing to developing strategic reports and timely intelligence that propelled business success. Proven record of working with highly cross-functional internal teams to get models into production. Demonstrated expertise in leveraging positive analytical thinking, problem-solving orientation, research knowledge, fast-learning capacity, and team management skills .</p>
+            <p>.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h1 class="display-4">Projects</h1>
+            <div class="row">
+                <!-- Project 1 Card -->
+                <div class="col-lg-4 col-md-6 project-card">
+                    <div class="card">
+                        <img src="images/projects/new1.jpg" class="card-img-top" alt="Project 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Power BI</h5>
+                            <p class="card-text">Maarifasasa Limited Education tech company study for student metrics;
+                                Student performance overview;
+                                Visualization showing overall performance of students across different courses
+                                Highlight Top performers and Bottom performers
+                                Course enrollment analysis;
+                                Chart showing number of enrollements per course
+                                Trends in enrollements overtime</p>
+                            <a href="https://drive.google.com/file/d/1tFwGRDBjU8D850eNqtQDn52G33YzNUlp/view?usp=sharing" class="btn btn-primary">Check it out</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 Card -->
+                <div class="col-lg-4 col-md-6 project-card">
+                    <div class="card">
+                        <img src="images/projects/new2.jpg" class="card-img-top" alt="Project 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Microsoft Excel</h5>
+                            <p class="card-text">Bee and Bee retail analysis;
+                                Project overview;
+                                Show the trend performance of income generated per month
+                                Revenue generated by top performing cities
+                                Distribution of product category vs Cost of goods sold vs Revenue 
+                            </p>
+                            <a href="https://drive.google.com/file/d/1tYwHVjeG7D6TdaJ8_iwO6C3D5Fr8rbCL/view?usp=sharing" class="btn btn-primary">Check it out </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 Card -->
+                <div class="col-lg-4 col-md-6 project-card">
+                    <div class="card">
+                        <img src="images/projects/new3.jpg" class="card-img-top" alt="Project 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project SQL</h5>
+                            <p class="card-text">Hotel reservations;
+                                Project overview;
+                                Show the overall general performance and key performance indicators
+                                Analyse average bookings by guests
+                                Provide recommendations based on the data analysed
+                            </p>
+                            <a href="https://drive.google.com/file/d/1xrELa35EX6Kid6Gv2BMq8DtSxvx_yaU9/view?usp=sharing" class="btn btn-primary">Check it out </a>
+                         
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h1 class="display-4">Skills</h1>
+            <div class="row">
+                <!-- Skill 1 Card -->
+                <div class="col-lg-3 col-md-6 skill-card">
+                    <div class="card">
+                        <img src="images/skills/Power1.jpg" class="card-img-top mx-auto d-block" alt="Skill 1 Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Power BI</h5>
+                            <p class="card-text">Proficient in using Power BI to transform complex data into insightful visualizations. Experienced in creating interactive dashboards, designing reports, and analyzing data trends to support decision-making. Skilled in data modeling, DAX calculations, and integrating various data sources to deliver comprehensive and actionable business intelligence</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 2 Card -->
+                <div class="col-lg-3 col-md-6 skill-card">
+                    <div class="card">
+                        <img src="images/skills/2.png" class="card-img-top mx-auto d-block" alt="Skill 2 Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Visualization</h5>
+                            <p class="card-text">Expertise in translating data into compelling visual stories through various tools and techniques. Proficient in creating clear and interactive charts, graphs, and dashboards to highlight key insights and trends. Skilled in using visualization tools like Tableau, Power BI.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 3 Card -->
+                <div class="col-lg-3 col-md-6 skill-card">
+                    <div class="card">
+                        <img src="images/skills/3.png" class="card-img-top mx-auto d-block" alt="Skill 3 Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text"> Querying and managing relational databases. Experienced in writing complex queries to extract, manipulate, and analyze data, as well as optimizing performance and ensuring data integrity. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!-- Skill 4 Card -->
+                <div class="col-lg-3 col-md-6 skill-card">
+                    <div class="card">
+                        <img src="images/skills/4.png" class="card-img-top mx-auto d-block" alt="Skill 4 Icon">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Storytelling</h5>
+                            <p class="card-text">Crafting compelling narratives from data to communicate insights effectively. Proficient in using visual and textual elements to present data-driven stories that engage and inform stakeholders</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h1 class="display-4">Contact Me</h1>
+            <div class="row contact-info">
+                <div class="col-md-6">
+                    <p><i class="fas fa-envelope"></i> mwaka2015@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <p><i class="fas fa-phone"></i> +256704702831</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="social-icons">
+                    <a href="https:www.linkedin.com/in/emmanuel-mwaka-b6b172164" target="_blank" class="btn" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                
+                    <a href="https://github.com" target="_blank" class="btn" data-toggle="tooltip" data-placement="top" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $('a.nav-link').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
